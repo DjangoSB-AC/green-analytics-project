@@ -26,3 +26,13 @@ nav ul li a {
 nav ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.1);
 }
+
+main#main {
+  background-color: rgba(255, 255, 255, 0.9); /* subtle white box */
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 0.8rem;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+

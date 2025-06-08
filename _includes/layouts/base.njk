@@ -43,23 +43,26 @@
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 <header class="container" style="padding-top: 1rem;">
-  <!-- Site title on the left -->
+  <!-- Site title (top left) -->
   <div style="text-align: left;">
-    <h1 style="margin-bottom: 0.5rem;">{{ metadata.title }}</h1>
+    <h1 style="margin-bottom: 0.25rem;">{{ metadata.title }}</h1>
   </div>
 
-  <!-- Navigation links below, centered across the page -->
-  <nav>
-    <ul style="display: flex; justify-content: center; gap: 2rem; list-style: none; padding-left: 0; margin: 0;">
-      <li><a href="/">Home</a></li>
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/about/">About</a></li>
-    </ul>
-  </nav>
+  <!-- Nav bar (next line down, centered across the page) -->
+  <div style="width: 100%; text-align: center; margin-top: 0.5rem;">
+    <nav>
+      <ul style="display: inline-flex; gap: 2rem; list-style: none; padding-left: 0; margin: 0;">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+  </div>
 
-  <!-- Solid horizontal line -->
+  <!-- Solid horizontal rule -->
   <hr style="border-top: 2px solid #ccc; margin-top: 1rem;" />
 </header>
+
 
 
 		<main id="main">

@@ -38,7 +38,7 @@ main#main {
 }
 
 body {
-  background-image: url("/images/greenhouse.jpg"); /* change this name if needed */
+  background-image: url("/images/greenhouse.jpg") !important; /* change this name if needed */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

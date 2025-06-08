@@ -16,16 +16,12 @@ header {
 }
 
 nav ul li a {
-  background-color: rgba(150, 150, 150, 0.1); /* translucent grey */
-  color: #fdf9f3;
+  background-color: rgba(150, 150, 150, 0.1); /* light grey, transparent */
   padding: 0.4rem 0.8rem;
   border-radius: 0.4rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
-
-  display: inline-block;
-  min-width: 110px; /* 👈 this makes the box wider */
-  text-align: center;
+	color: #fdf9f3;
 }
 
 nav ul li a:hover {

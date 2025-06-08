@@ -5,3 +5,8 @@ nav {
   margin-bottom: 2rem;
   box-shadow: none !important;
 }
+
+header {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}

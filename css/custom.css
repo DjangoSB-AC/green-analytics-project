@@ -45,6 +45,16 @@ html {
   background-attachment: fixed !important;
 }
 
+/* Make nav links wrap on small screens */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;         /* Allow links to wrap on smaller screens */
+  gap: 0.5rem 1rem;         /* vertical and horizontal spacing between boxes */
+  justify-content: center; /* Optional: center them */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 body {
   background-color: transparent !important;
 }

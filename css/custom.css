@@ -44,17 +44,15 @@ html {
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
-
 nav ul {
   display: flex;
-  justify-content: space-evenly;  /* 👈 evenly space boxes across */
+  justify-content: space-between; /* distribute links across available width */
   align-items: center;
-  flex-wrap: nowrap;              /* 👈 prevent wrapping */
   list-style: none;
-  margin: 0;
   padding: 0;
-  overflow-x: auto;               /* 👈 allow horizontal scroll on tiny screens */
-  gap: 0;                         /* optional: no fixed gap, space handled by justify */
+  margin: 0 auto;
+  max-width: 100%;
+  flex-wrap: nowrap;
 }
 
 body {

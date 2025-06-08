@@ -37,11 +37,11 @@ main#main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-body {
-  background-image: url("/images/greenhouse.jpg") !important; /* change this name if needed */
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-	border: 5px solid lime !important;
+html {
+  background-image: url("/images/greenhouse.jpg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
+

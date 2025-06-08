@@ -42,19 +42,25 @@
 	<body>
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+<header class="container" style="padding-top: 1rem;">
+  <!-- Site title on the left -->
+  <div style="text-align: left;">
+    <h1 style="margin-bottom: 0.5rem;">{{ metadata.title }}</h1>
+  </div>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
-		</header>
+  <!-- Navigation links below, centered across the page -->
+  <nav>
+    <ul style="display: flex; justify-content: center; gap: 2rem; list-style: none; padding-left: 0; margin: 0;">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Solid horizontal line -->
+  <hr style="border-top: 2px solid #ccc; margin-top: 1rem;" />
+</header>
+
 
 		<main id="main">
 			<heading-anchors>

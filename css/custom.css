@@ -45,3 +45,6 @@ html {
   background-attachment: fixed !important;
 }
 
+body {
+  background-color: transparent !important;
+}

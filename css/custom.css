@@ -9,6 +9,9 @@ nav {
 header {
   border-bottom: none !important;
   box-shadow: none !important;
+	background-color: #5a6a70; /* pastel Payne’s grey */
+  color: #fdf9f3; /* off-white text */
+  padding: 1.5rem 2rem;
 }
 
 nav ul li a {
@@ -17,8 +20,9 @@ nav ul li a {
   border-radius: 0.4rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
+	color: #fdf9f3;
 }
 
 nav ul li a:hover {
-  background-color: rgba(150, 150, 150, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }

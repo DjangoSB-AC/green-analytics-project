@@ -1,7 +1,8 @@
-main hr {
-  all: unset;
-  display: block;
-  width: 100%;
-  border-top: 2px solid #999;
-  margin: 2rem 0;
+nav {
+  border-bottom: 2px solid #999 !important;
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  margin-bottom: 0 !important;
 }

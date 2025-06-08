@@ -2,7 +2,7 @@ nav {
   border: none !important; /* kill Pico's dashed default */
   border-bottom: 2px solid #999 !important; /* solid custom line */
   padding-bottom: 0.75rem; /* adds space below links */
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   box-shadow: none !important;
 }
 

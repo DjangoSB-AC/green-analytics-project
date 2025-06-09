@@ -72,12 +72,11 @@
 		</main>
 
 		<footer class="site-footer">
-  		<p>© {{ new Date().getFullYear() }} BetaBiome — All rights reserved.</p>
-  		<p>
-    		Built with <a href="https://www.11ty.dev/">Eleventy</a> & hosted on <a href="https://www.netlify.com/">Netlify</a>.
-  		</p>
+		  <p>© {% currentBuildDate | date: "%Y" %} BetaBiome — All rights reserved.</p>
+		  <p>
+		    Built with <a href="https://www.11ty.dev/">Eleventy</a> & hosted on <a href="https://www.netlify.com/">Netlify</a>.
+		  </p>
 		</footer>
-
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>

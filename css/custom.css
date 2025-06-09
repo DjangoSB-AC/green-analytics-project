@@ -42,6 +42,7 @@ main#main {
   border-radius: 0.8rem;
   max-width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	color: #fdf9f3; /* off-white text */
 }
 
 html {
@@ -66,4 +67,25 @@ header nav ul {
 
 body {
   background-color: transparent !important;
+}
+
+.site-footer {
+  background-color: rgba(40, 44, 52, 0.80); /* dark grey box, similar to main#main */
+  max-width: 800px;
+  margin: 2rem auto 4rem auto;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  text-align: center;
+	color: #fdf9f3; /* off-white text */
+}
+
+.site-footer a {
+  color: #99e2c4; /* pastel mint green */
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: #bff5d8;
 }

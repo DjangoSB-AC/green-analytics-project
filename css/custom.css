@@ -101,3 +101,10 @@ body {
 .footer-icons a:hover {
   color: #88ccff;
 }
+
+.footer-icons img {
+  display: inline-block !important;
+  width: 32px !important;
+  height: 32px !important;
+  opacity: 1 !important;
+}

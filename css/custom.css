@@ -44,15 +44,20 @@ html {
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
+
 nav ul {
   display: flex;
-  justify-content: space-between; /* distribute links across available width */
+  justify-content: center;
   align-items: center;
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  max-width: 100%;
   flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  gap: 0.5rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
 }
 
 body {

@@ -7,6 +7,9 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+		<style>{% include "css/custom.css" %}</style>
+
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 
@@ -22,17 +25,17 @@
 		#}
 
 		<!-- Load Font Awesome for social icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-K5tYy8M6DbH/94v3eV+K8i9XN0FZWVaKk9vjSPAK0J5xKJD7Wrkq8rNSqacWWN0dDL2w6rWfObpkaEjT2wQ0Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-K5tYy8M6DbH/94v3eV+K8i9XN0FZWVaKk9vjSPAK0J5xKJD7Wrkq8rNSqacWWN0dDL2w6rWfObpkaEjT2wQ0Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-{#- Add CSS to the bundle #}
-<style>{% include "css/index.css" %}</style>
+		{#- Add CSS to the bundle #}
+		<style>{% include "css/index.css" %}</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
 
 		{#- Render the CSS bundle using inlined CSS (for the fastest site performance in production) #}
-<style>{% include "css/custom.css" %}</style>		
-<style>{% getBundle "css" %}</style>
+		<style>{% include "css/custom.css" %}</style>		
+		<style>{% getBundle "css" %}</style>
 
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}

@@ -6,6 +6,17 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<section class="intro-block" style="margin-bottom: 2rem;">
+  <h1>Welcome to BetaBiome</h1>
+  <p>
+    We work at the messy intersection of data, policy, and the environment.
+    Using analytical tools, we're trying to better understand the world around us — how people think, how systems behave, and how both might be improved.
+  </p>
+  <p>
+    This site is a home for side projects and experiments. Where possible, we make everything replicable — with full code and documentation available on GitHub.
+  </p>
+</section>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
